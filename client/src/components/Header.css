@@ -1,0 +1,107 @@
+.logo {
+  display: none;
+}
+
+.hamburgerContainer {
+  display: none;
+}
+
+.navbar {
+  min-height: 5rem;
+  background-color: #efefef;
+}
+
+.logoContainer img:hover {
+  transform: scale(1.1);
+  color: #f71414;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbarContent {
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkContainer svg {
+  font-size: 1.8rem;
+  margin: 0 0.2rem;
+}
+
+.linkContainer a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  color: #2b5293;
+  font-weight: 600;
+}
+
+.linkContainer a:hover {
+  transform: scale(1.1);
+  color: #2b5293;
+  transition: all 0.2s ease-in-out;
+}
+
+.logoContainer {
+  height: 5rem;
+  padding: 0.2rem 0;
+}
+
+.logoContainer img {
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav{
+   display: flex;
+   align-items: center;
+  }
+
+  .logoContainer {
+    display: none;
+  }
+  .linkContainer a {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  }
+
+  .logo {
+    color: #f71414;
+    font-weight: 800;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 0;
+    display: flex;
+  }
+  .hamburgerContainer {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+  }
+
+  .hamburgerContainer img {
+    height: 100%;
+  }
+
+  .hamburgerContainer div {
+    height: 3rem;
+    padding: 0.2rem 0;
+  }
+}
+
+@media (max-width: 400px) {
+   .linkContainer a {
+  font-size: 0.7rem;
+  }
+}
+@media (max-width: 350px) {
+   .linkContainer a {
+     margin: 1rem 0.5rem 0rem 0.5rem;
+  }
+}

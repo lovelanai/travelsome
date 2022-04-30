@@ -1,0 +1,117 @@
+.profileContainer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3rem;
+    text-align: center;
+    margin: 0 4rem;
+}
+
+.customBtn{
+    text-decoration: none;
+   
+    background: #2b5293;
+    font-weight: 600;
+    border: 1px solid #2b5293;
+    color: white;
+    font-size: 1.3rem;
+   width:13rem;}
+
+
+.buttonContainer{
+    display: flex;
+    padding: 1.5rem 0;
+    
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+
+
+.postIcons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.postIcons svg{
+  font-size: 1.5rem;
+}
+
+
+.changePostContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 10;
+    height: 90%;
+    backdrop-filter: blur(1px);
+    background-color: rgba(0, 0, 0, 0.245);
+    width: 100%;
+    top: 6rem;
+}
+
+.changePostContainer section{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    position: relative;
+  
+
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+
+}
+
+.leaveBtn{
+    position: absolute;
+    left:3rem;
+    top: 2rem;
+    font-size: 2rem;
+}
+
+.cleanButton{
+    background:none;
+    border: none;
+}
+
+.postByIdContainer{
+    display: flex;
+    flex-direction: column;
+   padding-top: 5rem;
+    align-items: center;
+}
+
+.leftArrow{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 2rem;
+    text-decoration:none;
+    
+}
+.leftArrow a{
+    color: black;
+    
+}
+
+@media (max-width:850px) {
+    .customBtn{
+        font-size: 1rem;
+        width: 12rem;
+        margin: 1rem;
+    }
+
+    .buttonContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

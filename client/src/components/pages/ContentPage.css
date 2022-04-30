@@ -1,0 +1,31 @@
+.contentContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.contentContainer h1 {
+  font-size: 3rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.postContent {
+  padding: 2rem;
+}
+
+
+.cardTitle{
+  background-color: #275193;
+  color: white;
+  font-size: 2rem;
+  margin:0;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+

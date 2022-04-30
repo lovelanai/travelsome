@@ -1,0 +1,9 @@
+.content-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.content-form h1 {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}

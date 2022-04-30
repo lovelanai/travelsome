@@ -1,0 +1,5 @@
+.mainContainer {
+  min-height: calc(100vh - 9rem);
+  display: flex;
+  justify-content: center;
+}
